@@ -1,0 +1,297 @@
+.section.section-padding {
+  padding: 100px 0 70px;
+}
+
+.sigma_about {
+  position: relative;
+}
+
+.sigma_about {
+  position: relative;
+}
+
+.sigma_about.style-3 .sigma_about-image-1 {
+  animation: float-y 2s linear infinite;
+}
+
+.sigma_about.style-3 .sigma_about-image-1 img,
+.sigma_about.style-3 .sigma_about-image-2 img {
+  width: auto;
+}
+
+.sigma_about.style-3 .sigma_about-image-2 {
+  right: 0;
+  left: auto;
+  bottom: -125px;
+  z-index: 1;
+  animation: float-x 2s linear infinite;
+  animation-delay: 600ms;
+}
+
+.sigma_about.style-3 .sigma_about-exp {
+  color: #000;
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  position: absolute;
+  top: 75px;
+  right: -36px;
+  transform: rotate(270deg);
+  background-color: #fff;
+  padding: 10px;
+}
+
+.primary-color {
+  color: #55C39E;
+}
+
+.sigma_about.style-3 .sigma_video-btn {
+  position: absolute;
+  left: 10px;
+  bottom: -104px;
+  width: 80px;
+  height: 80px;
+  background-color: #55C39E;
+  color: #fff;
+  z-index: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.sigma_video-btn:before,
+.sigma_video-btn:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #fff;
+  animation-name: pulseInOut;
+  opacity: 0;
+  border-radius: 50%;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.fa-play:before {
+  content: "\f04b";
+}
+
+.far {
+  font-weight: 400;
+}
+
+.fal,
+.far {
+  font-family: "FontAwesome";
+}
+
+.section-title {
+  position: relative;
+  max-width: 640px;
+}
+
+.section-title .subtitle {
+  display: inline-flex;
+  color: #55C39E;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.section-title .title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  position: relative;
+}
+
+.sigma_about h4 {
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.sigma_about .sigma_general-list {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sigma_about.style-3 .sigma_general-list ul {
+  column-count: 2;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.sigma_general-list.style-2 ul li {
+  padding: 0;
+}
+
+.sigma_general-list ul li {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.sigma_about.style-3 .sigma_general-list ul li i {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.fa-check:before {
+  content: "\f00c";
+}
+
+.sigma_general-list ul li span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #140342;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.btn-rounded .sigma_btn {
+  border-radius: 6px;
+}
+
+.sigma_btn {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  position: relative;
+  background-color: #55C39E;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 17px 30px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, .1);
+  border-radius: 6px;
+}
+
+.sigma_about .sigma_about-image-2 {
+  position: absolute;
+  bottom: 30px;
+  left: 5px;
+  overflow: hidden;
+}
+
+.sigma_general-list ul li i,
+.sigma_general-list ul li span.number {
+  width: 40px;
+  height: 40px;
+  background-color: #55C39E;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 8px rgba(255, 170, 23, .5);
+}
+
+.sigma_about.style-3 .sigma_video-btn:hover {
+  background-color: #6440FB;
+  text-decoration: none;
+}
+
+.sigma_video-btn:hover {
+  background-color: #55C39E;
+  color: #fff;
+}
+
+.sigma_general-list ul li+li {
+  margin-top: 20px;
+}
+
+.sigma_btn:hover {
+  color: #fff;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, .1);
+  outline: none;
+  background-color: #6440FB;
+}
+.sigma_footer {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+}
+.sigma_footer .sigma_footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+.sigma_footer .sigma_footer-links li a {
+  position: relative;
+  color: #686a6f;
+  font-weight: 400;
+  text-decoration: none;
+}
+.sigma_social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.sigma_social-icons li a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55C39E;
+  background-color: #f4f5f8;
+  font-size: 15px;
+  border-radius: 50%;
+  transition: 0.3s;
+  list-style: none;
+}
+.sigma_footer .sigma_footer-copyright {
+  margin-top: 25px;
+}
+.sigma_footer .sigma_footer-links li a:hover, .sigma_footer .sigma_footer-copyright p a:hover {
+  color: #55C39E;
+  text-decoration: none;
+}
+.sigma_social-icons li a:hover {
+  background-color: #55C39E;
+  color: #fff;
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+.sigma_social-icons li, .sigma_footer .sigma_footer-links li {
+  list-style: none;
+}
+.contact-page .sigma_subheader.style-10 {
+  padding: 40px 0;
+}
+.contact-page .sigma_subheader .sigma_subheader-inner {
+  text-align: left;
+  margin: 0;
+  max-width: 800px;
+}
+.contact-page .sigma_subheader .sigma_subheader-inner h1 {
+  color: #140342;
+  display: inline-block;
+  font-size: 72px;
+  margin-bottom: 0;
+}
