@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/contact" className="nav-link">Contact</Link>
         </li>
       </ul>
-      <form className="d-flex" role="search">
+      <form className="d-flex searchbar" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form>

@@ -1,5 +1,17 @@
+nav.navbar {
+  background-color: #55C39E !important;
+}
+
+.searchbar .form-control:focus {
+  border-color: #55C39E;
+}
+
 .section.section-padding {
   padding: 100px 0 70px;
+}
+
+.searchbar input {
+  background-color: #fff;
 }
 
 .sigma_about {
@@ -11,7 +23,7 @@
 }
 
 .sigma_about.style-3 .sigma_about-image-1 {
-  animation: float-y 2s linear infinite;
+  animation: 2s linear infinite;
 }
 
 .sigma_about.style-3 .sigma_about-image-1 img,
@@ -24,7 +36,7 @@
   left: auto;
   bottom: -125px;
   z-index: 1;
-  animation: float-x 2s linear infinite;
+  animation: 2s linear infinite;
   animation-delay: 600ms;
 }
 
@@ -227,30 +239,35 @@
   outline: none;
   background-color: #6440FB;
 }
+
 .sigma_footer {
   background-color: #f7f7f7;
   padding: 80px 0;
   background-size: cover;
   background-position: center;
 }
+
 .sigma_footer .sigma_footer-links {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 25px 0;
 }
+
 .sigma_footer .sigma_footer-links li a {
   position: relative;
   color: #686a6f;
   font-weight: 400;
   text-decoration: none;
 }
+
 .sigma_social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 0.3s;
 }
+
 .sigma_social-icons li a {
   width: 50px;
   height: 50px;
@@ -259,39 +276,139 @@
   justify-content: center;
   color: #55C39E;
   background-color: #f4f5f8;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 50%;
   transition: 0.3s;
   list-style: none;
+  text-decoration: none;
 }
+
 .sigma_footer .sigma_footer-copyright {
   margin-top: 25px;
 }
-.sigma_footer .sigma_footer-links li a:hover, .sigma_footer .sigma_footer-copyright p a:hover {
+
+.sigma_footer .sigma_footer-links li a:hover,
+.sigma_footer .sigma_footer-copyright p a:hover {
   color: #55C39E;
   text-decoration: none;
 }
+
 .sigma_social-icons li a:hover {
   background-color: #55C39E;
   color: #fff;
 }
-.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-.sigma_social-icons li, .sigma_footer .sigma_footer-links li {
+
+.sigma_social-icons li,
+.sigma_footer .sigma_footer-links li {
   list-style: none;
+  padding-right: 15px;
 }
+
 .contact-page .sigma_subheader.style-10 {
   padding: 40px 0;
 }
+
 .contact-page .sigma_subheader .sigma_subheader-inner {
   text-align: left;
   margin: 0;
   max-width: 800px;
 }
+
 .contact-page .sigma_subheader .sigma_subheader-inner h1 {
   color: #140342;
   display: inline-block;
   font-size: 72px;
   margin-bottom: 0;
+}
+
+.contact-page .sigma_form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-page .sigma_contact-sec .form-group input,
+.contact-page .sigma_contact-sec .form-group input,
+.contact-page .sigma_contact-sec .form-group select {
+  display: block;
+  height: 60px;
+  width: 100%;
+  color: #686a6f;
+  padding: 14px 30px;
+  background-color: #f4f5f8;
+  border: 1px solid #55C39E;
+  border-radius: 0;
+  transition: all 300ms ease;
+  font-family: var(--thm-b-font);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  border-radius: 10px;
+}
+
+.contact-page .sigma_contact-sec .form-group textarea {
+  display: block;
+  width: 100%;
+  color: #686a6f;
+  padding: 14px 30px;
+  background-color: #f4f5f8;
+  border: 1px solid #55C39E;
+  border-radius: 0;
+  transition: all 300ms ease;
+  font-family: var(--thm-b-font);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  border-radius: 10px;
+}
+
+
+.contact-page .sigma_contact-block.style-3 .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--thm-base);
+  margin-right: 15px;
+  font-size: 18px;
+}
+.marketing-icon .panel-body a.btn {
+  background-color: #55c39e;
+  color: #fff;
+  border-color: #55c39e;
+}
+.marketing-icon .panel-body a.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+.sigma_form button.submit-btn {
+  display: block;
+  color: #fff;
+  padding: 14px 30px;
+  background-color: #55C39E;
+  border: 1px solid #55C39E;
+  border-radius: 0;
+  transition: all 300ms ease;
+  font-family: var(--thm-b-font);
+  font-size: 14px;
+  letter-spacing: 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.sigma_form button.submit-btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+.contact-block-inner {
+  float: left;
+  margin-bottom: 10px;
+}
+.contact-block-inner p {
+  margin-bottom: 5px;
+}
+.sigma_contact-block i.fa {
+  float: left;
+  width: 7%;
+  padding-top: 18px;
 }

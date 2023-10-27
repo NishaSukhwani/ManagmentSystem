@@ -25,13 +25,13 @@ const footer = () => {
           </ul>
           <ul class="sigma_social-icons">
             <li>
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
           </ul>
           <div class="sigma_footer-copyright">

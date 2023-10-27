@@ -7,7 +7,7 @@ const Marketingicon = () => {
             <div className="row">
                 <section className="wow fadeInRight" data-wow-delay="0.5s">
                     <div className="col-lg-12">
-                        <h1 className="page-header">
+                        <h1 className="page-header primary-color">
                             Welcome to Modern Business
                         </h1>
                     </div>

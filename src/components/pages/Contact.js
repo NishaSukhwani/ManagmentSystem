@@ -61,7 +61,7 @@ const Contact = () => {
                           </div>
                         </div>
                         <div class="col-12">
-                          <button type="submit">Submit Request</button>
+                          <button type="submit" class="submit-btn">Submit Request</button>
                           <div class="server_response w-100">
                           </div>
                         </div>
@@ -77,21 +77,21 @@ const Contact = () => {
                       <p>As a general rule, new students take a placement test which enables teachers to determine which is the most appropriate level for the student.</p>
                     </div>
                     <div class="sigma_contact-block style-2">
-                      <i class="fal fa-phone icon"></i>
+                    <i class="fa fa-phone icon" aria-hidden="true"></i>
                       <div class="contact-block-inner">
                         <p>Phone number</p>
                         <h6 class="mb-0">+677488484</h6>
                       </div>
                     </div>
                     <div class="sigma_contact-block style-2">
-                      <i class="fal fa-envelope icon"></i>
+                    <i class="fa fa-envelope icon" aria-hidden="true"></i>
                       <div class="contact-block-inner">
                         <p>Email address</p>
                         <h6 class="mb-0">info@themeely.com</h6>
                       </div>
                     </div>
                     <div class="sigma_contact-block style-2">
-                      <i class="fal fa-map-marker-alt icon"></i>
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
                       <div class="contact-block-inner">
                         <p>Office Address</p>
                         <h6 class="mb-0">14/A, Eost City Hall, NYC</h6>
@@ -106,6 +106,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+
+
 
   )
 }
